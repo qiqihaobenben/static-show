@@ -13,7 +13,6 @@ program
         port?: string
       }
     ) => {
-      console.log(options)
       const { root, cache, port } = options
       const server = new HttpServer({
         root,
@@ -23,3 +22,4 @@ program
       console.log(`监听 ${port}`)
     }
   )
+program.parse(process.argv)

@@ -12,7 +12,9 @@
     "version": "tsc -v",
     "test": "jest --all"
   },
-  "keywords": ["static file"],
+  "keywords": [
+    "static file"
+  ],
   "author": "chenfangxu",
   "repository": "https://github.com/qiqihaobenben/static-show.git",
   "license": "MIT",

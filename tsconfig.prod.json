@@ -2,8 +2,9 @@
   "extends": "@tsconfig/node14/tsconfig.json",
   "compilerOptions": {
     "baseUrl": ".",
-    "outDir": "./lib1",
+    "outDir": "./lib",
     "module": "CommonJS",
+    "removeComments": false,
     "typeRoots": ["node_modules/@types", "types"]
   }
 }
