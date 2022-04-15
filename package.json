@@ -5,16 +5,17 @@
   "bin": {
     "static-show": "lib/cli.js"
   },
-  "main": "lib/http-server.js",
+  "main": "lib/cli.js",
   "scripts": {
     "build": "tsc -p tsconfig.prod.json",
     "start": "ts-node src/cli.ts",
     "version": "tsc -v",
     "test": "jest --all"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["static file"],
+  "author": "chenfangxu",
+  "repository": "https://github.com/qiqihaobenben/static-show.git",
+  "license": "MIT",
   "devDependencies": {
     "@tsconfig/node14": "^1.0.1",
     "@types/node": "^16.11.11",
